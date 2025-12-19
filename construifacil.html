@@ -5,8 +5,10 @@
   <title>ConstruiFácil | Govix Tech</title>
   <meta name="description" content="Cotações online de materiais de construção.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="dark.css">
+
+  <!-- CSS com paths corretos para GitHub Pages -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./dark.css">
 </head>
 <body>
 
@@ -14,9 +16,9 @@
   <div class="container header-flex">
     <strong>Govix Tech</strong>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="produtos.html">Produtos</a>
-      <button onclick="toggleTheme()">🌓</button>
+      <a href="./index.html">Home</a>
+      <a href="./produtos.html">Produtos</a>
+      <button onclick="toggleTheme()" aria-label="Alternar tema">🌓</button>
     </nav>
   </div>
 </header>
@@ -39,9 +41,12 @@
   </div>
 </section>
 
-<footer class="footer">Govix Tech © 2025</footer>
+<footer class="footer">
+  Govix Tech © 2025
+</footer>
 
-<script src="theme.js"></script>
-<script src="analytics.js"></script>
+<!-- Scripts com paths corretos -->
+<script src="./theme.js"></script>
+<script src="./analytics.js"></script>
 </body>
 </html>
