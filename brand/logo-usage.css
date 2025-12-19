@@ -1,0 +1,30 @@
+/* GOVIX TECH — LOGO USAGE */
+
+/* Logo padrão */
+.govix-logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #1F4FD8;
+  font-size: 24px;
+}
+
+/* Versão negativa */
+.govix-logo--negative {
+  color: #FFFFFF;
+}
+
+/* Versão reduzida (apenas Govix) */
+.govix-logo--compact::after {
+  content: "Govix";
+}
+
+/* Área de proteção */
+.govix-logo {
+  padding: 0.5em; /* equivalente visual à altura do G */
+}
+
+/* Proibido: efeitos */
+.govix-logo {
+  text-shadow: none;
+  filter: none;
+}

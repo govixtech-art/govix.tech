@@ -1,0 +1,23 @@
+/* GOVIX TECH — UI COMPONENTS */
+
+.card {
+  background: var(--govix-white);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 24px;
+}
+
+.button-primary {
+  background: var(--govix-blue-light);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}

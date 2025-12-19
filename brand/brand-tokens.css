@@ -1,0 +1,27 @@
+/* GOVIX TECH — BRAND TOKENS */
+/* Fonte única da verdade para cores institucionais */
+
+:root {
+  /* Cores primárias */
+  --govix-blue: #1F3C88;
+  --govix-blue-light: #4A6CF7;
+
+  /* Neutros */
+  --govix-gray-dark: #2E2E2E;
+  --govix-gray-medium: #8A8A8A;
+  --govix-gray-light: #F5F6F8;
+  --govix-white: #FFFFFF;
+
+  /* Texto */
+  --text-primary: var(--govix-gray-dark);
+  --text-secondary: var(--govix-gray-medium);
+
+  /* Estados */
+  --border-default: #E5E7EB;
+  --focus-ring: var(--govix-blue-light);
+
+  /* Layout */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --shadow-soft: 0 2px 8px rgba(0,0,0,0.05);
+}
