@@ -3,43 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <title>LicitanteControl | Govix Tech</title>
-  <meta name="description" content="Monitoramento e inteligência de licitações públicas.">
+  <meta name="description" content="Plataforma de inteligência e monitoramento de licitações públicas.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GOVIX TECH — BRAND SYSTEM -->
+  <link rel="stylesheet" href="brand/brand-tokens.css">
+  <link rel="stylesheet" href="brand/typography.css">
+  <link rel="stylesheet" href="brand/logo-usage.css">
+  <link rel="stylesheet" href="brand/ui-components.css">
+
+  <!-- Estilos do site -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="dark.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-flex">
-    <strong>Govix Tech</strong>
+    <strong class="govix-logo">Govix Tech</strong>
     <nav>
       <a href="index.html">Home</a>
       <a href="produtos.html">Produtos</a>
-      <button onclick="toggleTheme()">🌓</button>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">🌓</button>
     </nav>
   </div>
 </header>
 
-<section class="hero small center">
-  <h1>LicitanteControl</h1>
-  <p>Inteligência, monitoramento e oportunidades em licitações.</p>
+<section class="hero small">
+  <div class="container center">
+    <h1>LicitanteControl</h1>
+    <p>Inteligência, monitoramento e oportunidades em licitações públicas.</p>
+  </div>
 </section>
 
 <section class="section">
   <div class="container two-cols">
     <div>
       <h2>O que resolve</h2>
-      <p>Identifica oportunidades, acompanha editais e centraliza informações estratégicas.</p>
+      <p>
+        Centraliza editais, monitora oportunidades em tempo real
+        e organiza informações estratégicas para decisões mais rápidas e seguras.
+      </p>
     </div>
+
     <div>
       <h2>Para quem é</h2>
-      <p>Empresas que buscam vantagem competitiva em licitações públicas.</p>
+      <p>
+        Empresas, escritórios e profissionais que atuam com licitações
+        e precisam de controle, previsibilidade e vantagem competitiva.
+      </p>
     </div>
   </div>
 </section>
 
-<footer class="footer">Govix Tech © 2025</footer>
+<section class="section light">
+  <div class="container">
+    <h2>Diferenciais</h2>
+    <div class="focus">
+      <div>Monitoramento inteligente</div>
+      <div>Centralização de editais</div>
+      <div>Redução de riscos</div>
+      <div>Decisão orientada por dados</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  Govix Tech © 2025 · contato@govix.tech
+</footer>
 
 <script src="theme.js"></script>
 <script src="analytics.js"></script>
