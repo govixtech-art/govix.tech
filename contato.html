@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Contato | Govix Tech</title>
+  <meta charset="UTF-8" />
+  <title>Contato | Govix.tech</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,33 +10,42 @@
 
 <header class="header">
   <div class="container header-flex">
-    <strong>Govix Tech</strong>
+    <div class="logo">Govix<span>.tech</span></div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="produtos.html">Produtos</a>
+      <a href="contato.html" class="btn-outline">Contato</a>
     </nav>
   </div>
 </header>
 
-<section class="hero small center">
-  <h1>Fale com a Govix Tech</h1>
-  <p>Vamos entender sua necessidade e indicar a melhor solução.</p>
-</section>
-
 <section class="section">
-  <div class="container">
+  <div class="container contact">
+    <h1>Solicitar demonstração</h1>
+    <p>Preencha o formulário e um especialista entrará em contato.</p>
+
     <form class="contact-form">
       <input type="text" placeholder="Nome e sobrenome" required>
-      <input type="tel" placeholder="Telefone / WhatsApp" required>
+      <input type="text" placeholder="Empresa" required>
+      <input type="tel" placeholder="WhatsApp" required>
       <input type="email" placeholder="E-mail corporativo" required>
-      <textarea placeholder="Descreva brevemente sua operação ou desafio"></textarea>
-      <button class="btn-primary">Solicitar contato</button>
+
+      <select required>
+        <option value="">Produto de interesse</option>
+        <option>LicitanteControl</option>
+        <option>LicitFlow</option>
+        <option>Minha Garantia</option>
+        <option>ConstruiFácil</option>
+      </select>
+
+      <textarea placeholder="Conte brevemente sua necessidade"></textarea>
+
+      <button type="submit" class="btn-primary">Enviar solicitação</button>
     </form>
   </div>
 </section>
 
 <footer class="footer">
-  Govix Tech © 2025
+  Govix.tech © 2025
 </footer>
 
 </body>
