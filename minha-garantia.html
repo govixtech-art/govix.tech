@@ -3,43 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <title>Minha Garantia | Govix Tech</title>
-  <meta name="description" content="Gestão digital de garantias e seguros contratuais.">
+  <meta name="description" content="Gestão digital de garantias, apólices e prazos contratuais.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GOVIX TECH — BRAND SYSTEM -->
+  <link rel="stylesheet" href="brand/brand-tokens.css">
+  <link rel="stylesheet" href="brand/typography.css">
+  <link rel="stylesheet" href="brand/logo-usage.css">
+  <link rel="stylesheet" href="brand/ui-components.css">
+
+  <!-- Estilos do site -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="dark.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-flex">
-    <strong>Govix Tech</strong>
+    <strong class="govix-logo">Govix Tech</strong>
     <nav>
       <a href="index.html">Home</a>
       <a href="produtos.html">Produtos</a>
-      <button onclick="toggleTheme()">🌓</button>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">🌓</button>
     </nav>
   </div>
 </header>
 
-<section class="hero small center">
-  <h1>Minha Garantia</h1>
-  <p>Controle de garantias, apólices e prazos contratuais.</p>
+<section class="hero small">
+  <div class="container center">
+    <h1>Minha Garantia</h1>
+    <p>Controle total de garantias, apólices e prazos contratuais.</p>
+  </div>
 </section>
 
 <section class="section">
   <div class="container two-cols">
     <div>
       <h2>O que resolve</h2>
-      <p>Evita perdas financeiras e descumprimentos contratuais.</p>
+      <p>
+        Evita perdas financeiras, vencimentos não monitorados
+        e descumprimento de exigências contratuais e legais.
+      </p>
     </div>
+
     <div>
       <h2>Para quem é</h2>
-      <p>Empresas com contratos públicos ou privados.</p>
+      <p>
+        Empresas com contratos públicos ou privados que
+        exigem controle rigoroso de garantias e seguros.
+      </p>
     </div>
   </div>
 </section>
 
-<footer class="footer">Govix Tech © 2025</footer>
+<section class="section light">
+  <div class="container center">
+    <a class="btn-primary" href="contato.html">Solicitar acesso</a>
+  </div>
+</section>
+
+<footer class="footer">
+  Govix Tech © 2025 · contato@govix.tech
+</footer>
 
 <script src="theme.js"></script>
 <script src="analytics.js"></script>
