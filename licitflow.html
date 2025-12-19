@@ -3,20 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>LicitFlow | Govix Tech</title>
-  <meta name="description" content="Controle interno e operacional de licitações.">
+  <meta name="description" content="Controle interno, rastreabilidade e gestão operacional de licitações.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GOVIX TECH — BRAND SYSTEM -->
+  <link rel="stylesheet" href="brand/brand-tokens.css">
+  <link rel="stylesheet" href="brand/typography.css">
+  <link rel="stylesheet" href="brand/logo-usage.css">
+  <link rel="stylesheet" href="brand/ui-components.css">
+
+  <!-- Estilos do site -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="dark.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-flex">
-    <strong>Govix Tech</strong>
+    <strong class="govix-logo">Govix Tech</strong>
     <nav>
       <a href="index.html">Home</a>
       <a href="produtos.html">Produtos</a>
-      <button onclick="toggleTheme()">🌓</button>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">🌓</button>
     </nav>
   </div>
 </header>
@@ -32,23 +44,30 @@
   <div class="container two-cols">
     <div>
       <h2>O que resolve</h2>
-      <p>Centraliza documentos, prazos, propostas e decisões internas.</p>
+      <p>
+        Organiza documentos, prazos, propostas, decisões internas
+        e histórico completo de cada processo licitatório.
+      </p>
     </div>
+
     <div>
       <h2>Para quem é</h2>
-      <p>Empresas que operam licitações públicas e privadas.</p>
+      <p>
+        Empresas que operam licitações públicas ou privadas
+        e precisam de controle operacional, compliance e rastreabilidade.
+      </p>
     </div>
   </div>
 </section>
 
 <section class="section light">
   <div class="container center">
-    <a class="btn-primary" href="#">Solicitar acesso</a>
+    <a class="btn-primary" href="contato.html">Solicitar acesso</a>
   </div>
 </section>
 
 <footer class="footer">
-  Govix Tech © 2025
+  Govix Tech © 2025 · contato@govix.tech
 </footer>
 
 <script src="theme.js"></script>
