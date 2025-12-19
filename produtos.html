@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Produtos | Govix Tech</title>
-  <meta name="description" content="Conheça as soluções GovTech da Govix Tech.">
+  <meta name="description" content="Conheça as soluções GovTech da Govix Tech para controle, conformidade e decisão.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GOVIX TECH — BRAND SYSTEM -->
+  <link rel="stylesheet" href="brand/brand-tokens.css">
+  <link rel="stylesheet" href="brand/typography.css">
+  <link rel="stylesheet" href="brand/logo-usage.css">
+  <link rel="stylesheet" href="brand/ui-components.css">
+
+  <!-- Estilos do site -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-flex">
-    <strong>Govix Tech</strong>
+    <strong class="govix-logo">Govix Tech</strong>
     <nav>
       <a href="index.html">Home</a>
-      <a href="produtos.html">Produtos</a>
+      <a href="produtos.html" class="active">Produtos</a>
       <a href="contato.html">Contato</a>
     </nav>
   </div>
@@ -23,33 +36,44 @@
 <section class="hero small">
   <div class="container center">
     <h1>Nossos Produtos</h1>
-    <p>Soluções desenvolvidas para controle, conformidade e decisão.</p>
+    <p>Soluções digitais para controle, conformidade e decisões críticas.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container product-list">
-    <div class="product">
+  <div class="container cards">
+
+    <a href="licitantecontrol.html" class="card">
       <h3>LicitanteControl</h3>
-      <p>Inteligência e monitoramento de licitações públicas.</p>
-    </div>
-    <div class="product">
+      <p>Inteligência, monitoramento e oportunidades em licitações públicas.</p>
+    </a>
+
+    <a href="licitflow.html" class="card">
       <h3>LicitFlow</h3>
-      <p>Controle interno e operacional de licitações.</p>
-    </div>
-    <div class="product">
+      <p>Controle interno, prazos e rastreabilidade do processo licitatório.</p>
+    </a>
+
+    <a href="minha-garantia.html" class="card">
       <h3>Minha Garantia</h3>
-      <p>Gestão de garantias e seguros contratuais.</p>
-    </div>
-    <div class="product">
+      <p>Gestão de garantias, apólices e prazos contratuais.</p>
+    </a>
+
+    <a href="construifacil.html" class="card">
       <h3>ConstruiFácil</h3>
-      <p>Cotações digitais de materiais de construção.</p>
-    </div>
+      <p>Cotações digitais e comparáveis de materiais de construção.</p>
+    </a>
+
+  </div>
+</section>
+
+<section class="section light">
+  <div class="container center">
+    <a class="btn-primary" href="contato.html">Falar com a Govix Tech</a>
   </div>
 </section>
 
 <footer class="footer">
-  Govix Tech © 2025
+  Govix Tech © 2025 · contato@govix.tech
 </footer>
 
 </body>
