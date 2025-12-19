@@ -1,0 +1,17 @@
+body.dark {
+  background: #0F172A;
+  color: #E5E7EB;
+}
+
+body.dark .header,
+body.dark .card,
+body.dark .product,
+body.dark .section.light {
+  background: #1E293B;
+  border-color: #334155;
+}
+
+body.dark a,
+body.dark p {
+  color: #CBD5E1;
+}
