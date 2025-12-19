@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Contato | Govix Tech</title>
-  <meta name="description" content="Entre em contato com a Govix Tech.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- CSS com path correto para GitHub Pages -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,23 +12,26 @@
   <div class="container header-flex">
     <strong>Govix Tech</strong>
     <nav>
-      <a href="./index.html">Home</a>
-      <a href="./produtos.html">Produtos</a>
-      <a href="./contato.html">Contato</a>
+      <a href="index.html">Home</a>
+      <a href="produtos.html">Produtos</a>
     </nav>
   </div>
 </header>
 
-<section class="hero small">
-  <div class="container center">
-    <h1>Contato</h1>
-    <p>Fale conosco para conhecer melhor nossas soluções.</p>
-  </div>
+<section class="hero small center">
+  <h1>Fale com a Govix Tech</h1>
+  <p>Vamos entender sua necessidade e indicar a melhor solução.</p>
 </section>
 
 <section class="section">
-  <div class="container contact">
-    <p>Email: <strong>contato@govix.tech</strong></p>
+  <div class="container">
+    <form class="contact-form">
+      <input type="text" placeholder="Nome e sobrenome" required>
+      <input type="tel" placeholder="Telefone / WhatsApp" required>
+      <input type="email" placeholder="E-mail corporativo" required>
+      <textarea placeholder="Descreva brevemente sua operação ou desafio"></textarea>
+      <button class="btn-primary">Solicitar contato</button>
+    </form>
   </div>
 </section>
 
